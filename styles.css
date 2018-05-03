@@ -1,0 +1,17 @@
+/*This defines the class selector name */
+.condensedLines {
+    /* This sets the width to 75% of the web page */
+    width: 75%;
+    /* This sets the max width to 80em (em is one of the units we can use unit) */
+    max-width: 80em;
+    /*This sets the margins to be in 2% from the left, instead of being all the way to the left by default */
+    margin-left: 2%;
+
+}
+/*This makes all of these type of elements have margins (above and below) of specified amounts */
+/*I could have alternatively used "line-height:" to change the distance between lines*/
+h1, h2, h3, p, ul, i, b {
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+    
+}
